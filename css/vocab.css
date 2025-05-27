@@ -13,13 +13,15 @@ body {
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
-    header h1 {
+    h1 {
+      text-align: center;
       font-size: 2.5em;
       color: #8b004e;
       margin: 0;
     }
 
-    header p {
+    p {
+      text-align: center;
       font-size: 1.2em;
       color: #555;
       margin-top: 10px;
@@ -78,3 +80,18 @@ body {
         padding: 12px;
       }
     }
+
+    .site-header {
+  text-align: left;
+}
+
+.logo-link {
+  text-decoration: none;   /* ❌ 밑줄 제거 */
+  color: #000000;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.logo-link:hover {
+  text-decoration: none;   /* ❌ hover 시에도 밑줄 없음 */
+}

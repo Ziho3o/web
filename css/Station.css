@@ -85,3 +85,15 @@ footer {
   color: #888;
   padding: 2em 0;
 }
+
+.logo-link {
+  text-decoration: none;   /* ❌ 밑줄 제거 */
+  color: #000000;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.logo-link:hover {
+  text-decoration: none;   /* ❌ hover 시에도 밑줄 없음 */
+}
+
