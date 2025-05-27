@@ -1,0 +1,39 @@
+.station {
+    position: absolute;
+    background-color: rgb(247, 91, 213);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .station-link {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+  }
+
+  .tooltip {
+    position: absolute;
+    max-width: 250px;
+    padding: 10px 15px;
+    background: rgba(255, 192, 203, 0.95); /* 벚꽃 느낌의 연한 분홍 */
+    color: #4a0033;
+    font-size: 0.95em;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 100;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+    transform: translateY(-5px);
+    pointer-events: none;
+  }
+
+  .tooltip.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
