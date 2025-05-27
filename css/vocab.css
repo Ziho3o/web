@@ -1,0 +1,80 @@
+body {
+      font-family: 'Noto Sans JP', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #fff0f5, #ffe0ea); /* 벚꽃 그라데이션 */
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background-color: rgba(255, 192, 203, 0.9);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #8b004e;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .container {
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    table {
+      width: 90%;
+      max-width: 800px;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 16px;
+      font-size: 1.1em;
+      border-bottom: 1px solid #f0dbe0;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ffb6c1;
+      color: white;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fdf3f7;
+    }
+
+    tr:hover {
+      background-color: #ffe3ed;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      th, td {
+        font-size: 1em;
+        padding: 12px;
+      }
+    }
