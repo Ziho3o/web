@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Font Awesome 아이콘 불러오기 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- 상단 네비게이션 바 -->
+  <header class="navbar">
+    <div class="logo" onclick="location.href='index.html'">
+      <img src="Photo/지호입니다.jpg" alt="Logo" />
+    </div>
+    <nav class="nav-links">
+      <a href="about.html" class="active">ABOUT ME</a>
+      <a href="ability.html">ABILITY</a>
+      <a href="With.html">PORTFOLIO</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+    <div class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- 자기소개 메인 섹션 -->
+  <section class="about-section">
+    <div class="profile-container">
+      <!-- 세로 글자: game developer -->
+      <div class="text-vertical">
+        g<br>a<br>m<br>e<br><br>d<br>e<br>v<br>e<br>l<br>o<br>p<br>e<br>r
+      </div>
+
+      <!-- 프로필 이미지 -->
+      <div class="profile-image">
+        <img src="Photo/내 사진.jpg" alt="Profile" />
+      </div>
+
+      <!-- 소셜 아이콘 -->
+      <div class="icon-list">
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.notion.so/" target="_blank"><i class="fab fa-notion"></i></a>
+      </div>
+    </div>
+
+    <h2 class="developer-title">hobby : photo</h2>
+    <a href="#gallery" class="scroll-arrow"><i class="fas fa-arrow-down"></i></a>
+    <div class="spacer"></div>
+
+    <section id="gallery" class="image-gallery">
+  <h2>My Photos</h2>
+  <div class="gallery-grid">
+    <img src="Photo/고양이 2.jpg" alt="사진1" />
+    <img src="Photo/고양이.jpg" alt="사진2" />
+    <img src="Photo/풍경.jpg" alt="사진3" />
+    <img src="Photo/금붕어.jpg" alt="사진4" />
+  </div>
+</section>
+  </section>
+</body>
+</html>

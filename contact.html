@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ✅ 상단 네비게이션 바 -->
+  <header class="navbar">
+    <div class="logo" onclick="location.href='index.html'">
+      <img src="logo.png" alt="Logo" />
+    </div>
+    <nav class="nav-links">
+      <a href="about.html">ABOUT ME</a>
+      <a href="ability.html">ABILITY</a>
+      <a href="portfolio.html">PORTFOLIO</a>
+      <a href="contact.html" class="active">CONTACT</a>
+    </nav>
+  </header>
+
+  <!-- ✅ 명함 카드 영역 -->
+  <div class="card-container" onclick="this.classList.toggle('flipped')">
+    <div class="card">
+      <!-- 앞면 -->
+      <div class="card-front">
+        <img src="Photo/image.jpg" alt="Business Card Front" />
+      </div>
+      <!-- 뒷면 -->
+      <div class="card-back">
+        <h2>Lee JinUk</h2>
+        <p>MOBILE: 010-5162-3515</p>
+        <p>EMAIL: vinny320@kakao.com</p>
+        <div class="social">
+          <span>@Asahi._.uk</span><br/>
+          <span>instagram.com/Asahi._.uk</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
